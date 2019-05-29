@@ -7,6 +7,19 @@ Experiments on `CBS SciTech News data` show that
 our model can effectively allow unsupervised domain adaptation,
 while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical).
 
+
 ## Requirements
 Python 2 or 3 <br>
 PyTorch 0.3 
+
+
+## Pretrained Embeddings
+
+
+## Data
+### labeled data
+
+### raw data
+
+
+## Usage
