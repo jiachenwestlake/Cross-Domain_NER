@@ -12,8 +12,8 @@ while also can deriving supervised domain adaption between domains with complete
 
 
 ## Requirements
-Python 2 or 3 <br>
-PyTorch 0.3 
+'Python 2 or 3 <br>
+PyTorch 0.3                                                                                                          '
 
 
 ## Pretrained Embeddings
