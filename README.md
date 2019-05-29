@@ -24,6 +24,8 @@ GloVe 100-dimension word vectors
 Source-domain: CoNLL 2003 English NER data (train, dev, and test sets). <br>
 Target-domain(unsupervised): CBS SciTech News (test set).
 ### Raw data
+Source-domain: 377,592 sentences from the Reuters. <br>
+Target-domain: 398,990 sentences from CBS SciTech News.
 
 
 ## Usage
