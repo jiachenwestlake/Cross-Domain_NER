@@ -17,7 +17,7 @@ PyTorch 0.3
 
 
 ## Pretrained Embeddings
-
+GloVe 100-dimension word vectors
 
 ## Data
 ### Labeled data
