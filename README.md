@@ -1,8 +1,7 @@
 # Cross-Domain_NER
+Cross-domain NER using cross-domain language modeling, code for ACL 2019 paper.
 
 ## Introduction
-Cross-domain NER using cross-domain language modeling, code for ACL 2019 paper. <br>
-<br>
 NER is a fundamental task in NLP. Due to the limitation of labeled resources, cross-domain NER has been a challenging task. Most previous work concentrates on the supervised scenario, making use of labeled data for both source and target domains. A disadvantage of such setting is that they can not train for domains which have no labeled data. <br>
 <br>
 We address this issue, using  cross-domain LM as a bridge cross-domains for NER domain adaptation. Performing cross-task and cross-domain transfer by designing a novel `Parameter Generation Network`. <br>
