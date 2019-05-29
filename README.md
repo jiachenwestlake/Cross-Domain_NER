@@ -13,7 +13,7 @@ while also can deriving supervised domain adaption between domains with complete
 ## Requirements
 `Python 2 or 3` <br>
 `PyTorch 0.3  `                                                                                                       
-
+The cache memory of one GPU should no less than 8GB.
 
 ## Pretrained Embeddings
 GloVe 100-dimension word vectors
