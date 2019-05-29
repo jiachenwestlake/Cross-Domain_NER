@@ -20,7 +20,8 @@ PyTorch 0.3
 
 ## Data
 ### labeled data
-
+Source-domain: CoNLL 2003 English NER data (train, dev, and test sets).
+Target-domain: CBS SciTech News (test set).
 ### raw data
 
 
