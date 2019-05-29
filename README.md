@@ -5,7 +5,7 @@ NER is a fundamental task in NLP. Due to the limitation of labeled resources, cr
 We address this issue, using  cross-domain LM as a bridge cross-domains for NER domain adaptation. Preformaning cross-task and cross-domain transfer by designing a novel `Parameter Generation Network`. <br>
 Experiments on `CBS SciTech News data` show that
 our model can effectively allow unsupervised domain adaptation,
-while also can deriving supervised domain adaption between domains with completely different entity types.
+while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical).
 
 ## Requirements
 Python 2 or 3 <br>
