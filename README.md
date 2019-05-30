@@ -22,8 +22,7 @@ GloVe 100-dimension word vectors
 ### Labeled data
 Source-domain: CoNLL 2003 English NER data (train, dev, and test sets). <br>
 Target-domain(unsupervised): CBS SciTech News (test set). <br>
-Target-domain(supervised): BioNLP13PC (train, dev, and test sets). <br>
-Target-domain(supervised): BioNLP13CG (train, dev, and test sets).
+Target-domain(supervised): BioNLP13PC, BioNLP13CG (train, dev, and test sets)
 
 ### Raw data
 Source-domain: 377,592 sentences from the Reuters. <br>
