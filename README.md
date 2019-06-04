@@ -28,8 +28,8 @@ GloVe 100-dimension word vectors.
 ### Labeled data
 * Source-domain: CoNLL 2003 English NER data. <br>
 * Target-domain
-  * Unsupervised: CBS SciTech News (test set).(In: `\combined_SDA_and_UDA\data\tech_test`) <br>
-  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
+ * Unsupervised: CBS SciTech News (test set).(In: `\combined_SDA_and_UDA\data\tech_test`) <br>
+ * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
 
 ### Raw data
 * Source-domain: 377,592 sentences from the Reuters. <br>
@@ -46,6 +46,6 @@ python main.py --config train.NER.config
 ## Cite:
 
 ## Update
-V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
+* V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
 <br>
-V1. The formal multi-task version in `\supervised_domain_adaptation`.
+* V1. The formal multi-task version in `\supervised_domain_adaptation`.
