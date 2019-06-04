@@ -16,7 +16,7 @@ For more details, please refer to our paper "[Cross-Domain NER using Cross-Domai
 
 ## Requirements
 ```
-Python 2 or 3 <br>
+Python 2 or 3 
 PyTorch 0.3
 ```
 The cache memory of one GPU should no less than 8GB.
