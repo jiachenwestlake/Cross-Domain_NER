@@ -47,5 +47,4 @@ python main.py --config train.NER.config
 
 ## Update
 * V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
-<br>
 * V1. The formal multi-task version in `\supervised_domain_adaptation`.
