@@ -37,11 +37,11 @@ Target-domain(unsupervised): 398,990 sentences from CBS SciTech News.
 ## Usage
 Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
 <br>
-`python main.py --config train.NER.config`
+``python main.py --config train.NER.config``
 
 ## Cite:
 
 ## Update
-V2. Combined supervised model and unsupervised model in `\combined_SDA_and_UDA`
+V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
 <br>
-V1. The formal multi-task version `\supervised_domain_adaptation`
+V1. The formal multi-task version in `\supervised_domain_adaptation`.
