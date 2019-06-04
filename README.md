@@ -30,7 +30,8 @@ Target-domain(unsupervised): 398,990 sentences from CBS SciTech News.
 
 
 ## Usage
-Both `\supervised_domain_adaptation` and `combined_SDA_and_UDA` can use the following commond to run. <br>
+Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
+<br>
 `python main.py --config train.NER.config`
 
 ## Cite:
