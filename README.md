@@ -11,7 +11,7 @@ while also can deriving supervised domain adaption between domains with complete
 <br> <br>
 The naive baseline of Single Task Model (STM-Target and STM-Source in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
 ), with some exceptions in hyperparameters of STM-Target to give a strong baseline. 
-<br>
+<br> <br>
 For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling]()".
 
 ## Requirements
