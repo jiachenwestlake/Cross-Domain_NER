@@ -15,8 +15,10 @@ The naive baseline of Singule Task Model (STM-Target and STM-Source in paper) fo
 For more details, please refer to our paper.
 
 ## Requirements
-`Python 2 or 3` <br>
-`PyTorch 0.3  `                                                                                                       
+```
+Python 2 or 3 <br>
+PyTorch 0.3
+```
 The cache memory of one GPU should no less than 8GB.
 
 ## Pretrained Embeddings
@@ -24,20 +26,22 @@ GloVe 100-dimension word vectors.
 
 ## Data
 ### Labeled data
-Source-domain: CoNLL 2003 English NER data (train, dev, and test sets). <br>
-Target-domain(unsupervised): CBS SciTech News (test set).(In: `\combined_SDA_and_UDA\data\tech_test`) <br>
-Target-domain(supervised): [BioNLP13PC, BioNLP13CG (train, dev, and test sets)](https://github.com/cambridgeltl/MTL-Bioinformatics-2016
+* Source-domain: CoNLL 2003 English NER data (train, dev, and test sets). <br>
+* Target-domain(unsupervised): CBS SciTech News (test set).(In: `\combined_SDA_and_UDA\data\tech_test`) <br>
+* Target-domain(supervised): [BioNLP13PC, BioNLP13CG (train, dev, and test sets)](https://github.com/cambridgeltl/MTL-Bioinformatics-2016
 )
 
 ### Raw data
-Source-domain: 377,592 sentences from the Reuters. <br>
-Target-domain(unsupervised): 398,990 sentences from CBS SciTech News.
+* Source-domain: 377,592 sentences from the Reuters. <br>
+* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News.
 
 
 ## Usage
 Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
 <br>
-``python main.py --config train.NER.config``
+```
+python main.py --config train.NER.config
+```
 
 ## Cite:
 
