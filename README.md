@@ -9,8 +9,8 @@ We address this issue, using  cross-domain LM as a bridge cross-domains for NER 
 Experiments on **CBS SciTech News data** show that our model can effectively allow unsupervised domain adaptation,
 while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical). 
 <br> <br>
-The naive baseline of Single Task Model (STM-Target and STM-Source in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
-), with some exceptions in hyperparameters of STM-Target to give a strong baseline. 
+The naive baseline of Single Task Model (**STM** in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
+), with some exceptions in the hyperparameters of STM-Target in order to give a strong baseline. 
 <br> <br>
 For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling]()".
 
@@ -22,19 +22,19 @@ PyTorch 0.3
 The cache memory of one GPU should no less than 8GB.
 
 ## Pretrained Embeddings
-GloVe 100-dimension word vectors.
+GloVe 100-dimension word vectors (Cite from [Here]()).
 
 ## Data
 ### Labeled data
 * Source-domain: CoNLL 2003 English NER data. <br>
 * Target-domain
- * Unsupervised: CBS SciTech News (test set).(In: `\combined_SDA_and_UDA\data\tech_test`) <br>
- * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
+ * Unsupervised: CBS SciTech News (test set).(In `\combined_SDA_and_UDA\data\tech_test`) <br>
+ * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
 
 ### Raw data
-* Source-domain: 377,592 sentences from the Reuters. <br>
-* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News.
-
+* Source-domain: 377,592 sentences from the Reuters [Download](). <br>
+* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [Download]().
+* Optional Biomedicine raw data from the PubMed can also be tried [Download]().
 
 ## Usage
 Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
@@ -47,4 +47,4 @@ python main.py --config train.NER.config
 
 ## Update
 * V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
-* V1. The formal multi-task version in `\supervised_domain_adaptation`.
+* V1. The previous multi-task version in `\supervised_domain_adaptation`.
