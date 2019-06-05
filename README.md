@@ -28,8 +28,8 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
 ### Labeled data
 * Source-domain: CoNLL-2003 English NER data. <br>
 * Target-domain
- * Unsupervised: CBS SciTech News (test set).(In `\combined_SDA_and_UDA\data\tech_test`) <br>
- * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
+ * Unsupervised: CBS SciTech News (test set) (In `\combined_SDA_and_UDA\data\tech_test`). <br>
+ * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016).
 
 ### Raw data
 * Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw) with a key `r12a`.
@@ -44,7 +44,7 @@ python main.py --config train.NER.config
 ```
 ### Input format
 * We recommand using the IBOES label style for NER dataset.
-* We recommand using a input style of one-sentence-per-line for raw data with word segmentatian.
+* We recommand using a input style of one-sentence-per-line for raw data with word segmentation.
 ## Cite:
 If you use our data or code, please cite our paper as follows:
 ```
