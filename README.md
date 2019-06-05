@@ -32,7 +32,7 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
 
 ### Raw data
-* Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw)with a key `r12a`. <br>
+* Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw) with a key `r12a`.
 * Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [*Download*](https://pan.baidu.com/s/1CGBWuf5XTfFmimXmLTBFwA) with a key `7w5h`.
 * Optional Biomedicine raw data from the PubMed can also be tried [*Download*](https://pan.baidu.com/s/1s866FUl07L96JmzelMC2xw) with a key `5ijl`.
 
@@ -43,51 +43,13 @@ Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the fol
 python main.py --config train.NER.config
 ```
 ### Input format
-```
-Functional	  O
-
-interactions	O
-
-of	          O
-
-transforming	B-Gene_or_gene_product
-
-growth	      I-Gene_or_gene_product
-
-factor	      I-Gene_or_gene_product
-
-beta	        I-Gene_or_gene_product
-
--	            I-Gene_or_gene_product
-
-activated	    I-Gene_or_gene_product
-
-kinase	      I-Gene_or_gene_product
-
-1	            E-Gene_or_gene_product
-
-with	        O
-
-IkappaB	      B-Gene_or_gene_product
-
-kinases	      E-Gene_or_gene_product
-
-to	          O
-
-stimulate	    O
-
-NF	          B-Complex
-
--	            I-Complex
-
-kappaB	      E-Complex
-
-activation	  O
-
-.	            O
-```
-
+* We recommand using the IBOES label style for NER dataset.
+* We recommand using a input style of one-sentence-per-line for raw data with word segmentatian.
 ## Cite:
+If you use our data or code, please cite our paper as follows:
+```
+
+```
 
 ## Update
 * V2. Combining supervised model and unsupervised model in `\combined_SDA_and_UDA`.
