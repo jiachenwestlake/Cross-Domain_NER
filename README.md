@@ -10,7 +10,7 @@ Experiments on **CBS SciTech News data** show that our model can effectively all
 while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical). 
 <br> <br>
 The naive baseline of Single Task Model (**STM** in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
-), with some exceptions in the hyperparameters of STM-Target in order to give a strong baseline. 
+), with some exceptions in the hyperparameters of **STM-Target** in order to give a strong baseline.
 <br> <br>
 For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling]()".
 
@@ -19,7 +19,7 @@ For more details, please refer to our paper "[Cross-Domain NER using Cross-Domai
 Python 2 or 3 
 PyTorch 0.3
 ```
-The cache memory of one GPU should no less than 8GB.
+The memory of one GPU should be no less than 8GB to fit the model.
 
 ## Pretrained Embeddings
 GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anthology/D14-1162)).
@@ -29,12 +29,12 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
 * Source-domain: CoNLL-2003 English NER data. <br>
 * Target-domain
  * Unsupervised: CBS SciTech News (test set) (In `\combined_SDA_and_UDA\data\tech_test`). <br>
- * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016).
+ * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016) and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016).
 
 ### Raw data
 * Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw) with a key `r12a`.
 * Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [*Download*](https://pan.baidu.com/s/1CGBWuf5XTfFmimXmLTBFwA) with a key `7w5h`.
-* Optional Biomedicine raw data from the PubMed can also be tried [*Download*](https://pan.baidu.com/s/1s866FUl07L96JmzelMC2xw) with a key `5ijl`.
+* Biomedicine raw data (Optional) from the PubMed can also be tried [*Download*](https://pan.baidu.com/s/1s866FUl07L96JmzelMC2xw) with a key `5ijl`.
 
 ## Usage
 ### Command
@@ -44,7 +44,7 @@ python main.py --config train.NER.config
 ```
 ### Input format
 * We recommand using the IBOES label style for NER dataset.
-* We recommand using a input style of one-sentence-per-line for raw data with word segmentation.
+* We recommand using an input style of one-sentence-per-line for raw data with word segmentation.
 ## Cite:
 If you use our data or code, please cite our paper as follows:
 ```
