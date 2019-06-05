@@ -6,7 +6,7 @@ NER is a fundamental task in NLP. Due to the limitation of labeled resources, cr
 <br> <br>
 We address this issue, using  cross-domain LM as a bridge cross-domains for NER domain adaptation. Performing cross-task and cross-domain transfer by designing a novel **Parameter Generation Network**. 
 <br> <br>
-Experiments on **CBS SciTech News data** show that our model can effectively allow unsupervised domain adaptation,
+Experiments on **CBS SciTech News Dataset** show that our model can effectively allow unsupervised domain adaptation,
 while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical). 
 <br> <br>
 The naive baseline of Single Task Model (**STM** in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
