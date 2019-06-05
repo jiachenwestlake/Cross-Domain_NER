@@ -22,7 +22,7 @@ PyTorch 0.3
 The cache memory of one GPU should no less than 8GB.
 
 ## Pretrained Embeddings
-GloVe 100-dimension word vectors (Cite from [Here]()).
+GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anthology/D14-1162)).
 
 ## Data
 ### Labeled data
@@ -32,9 +32,9 @@ GloVe 100-dimension word vectors (Cite from [Here]()).
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016), and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
 
 ### Raw data
-* Source-domain: 377,592 sentences from the Reuters [Download](). <br>
-* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [Download]().
-* Optional Biomedicine raw data from the PubMed can also be tried [Download]().
+* Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw)with a key `r12a`. <br>
+* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [*Download*](https://pan.baidu.com/s/1CGBWuf5XTfFmimXmLTBFwA) with a key `7w5h`.
+* Optional Biomedicine raw data from the PubMed can also be tried [*Download*](https://pan.baidu.com/s/1s866FUl07L96JmzelMC2xw) with a key `5ijl`.
 
 ## Usage
 Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
