@@ -42,6 +42,8 @@ Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the fol
 ```
 python main.py --config train.NER.config
 ```
+The file `train.NER.config` contains dataset path and model hyperparameters following [NCRF++](https://github.com/jiesutd/NCRFpp
+).
 ### Input format
 * We recommand using the IBOES label style for NER dataset.
 * We recommand using an input style of one-sentence-per-line for raw data with word segmentation.
