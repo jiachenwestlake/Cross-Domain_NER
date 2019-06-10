@@ -55,5 +55,5 @@ If you use our data or code, please cite our paper as follows:
 
 ## Update
 * V2. Combining supervised scenario and unsupervised scenario in `\combined_SDA_and_UDA`.
-* V1. * The previous supervised scenario in `\supervised_domain_adaptation`;
-      * The previous unsupervised scenario in `\unsupervised_domain_adaptation`;
+* V1. ** The previous supervised scenario in `\supervised_domain_adaptation`;
+      ** The previous unsupervised scenario in `\unsupervised_domain_adaptation`;
