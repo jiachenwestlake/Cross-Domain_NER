@@ -28,12 +28,12 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
 ### Labeled data
 * Source-domain: CoNLL-2003 English NER data. <br>
 * Target-domain
- * Unsupervised: CBS SciTech News (test set) (In `\unsupervised_domain_adaptation\data\news_tech\tech_test`). <br>
+ * Unsupervised: CBS SciTech News (test set) (In `\unsupervised_domain_adaptation\data\news_tech\tech_test` or [*Download*](https://pan.baidu.com/s/1z8L1Z3VtID7FnnsS22BO2w) with a key`1gz0`). <br>
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016) and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016).
 
 ### Raw data
-* Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1Sl5JssWV8R18nTU6S3Brrw) with a key `r12a`.
-* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [*Download*](https://pan.baidu.com/s/1CGBWuf5XTfFmimXmLTBFwA) with a key `7w5h`.
+* Source-domain: 377,592 sentences from the Reuters [*Download*](https://pan.baidu.com/s/1sGqIVdWQPcED9Rf3Qlkhiw) with a key `3uoq`.
+* Target-domain(unsupervised): 398,990 sentences from CBS SciTech News [*Download*](https://pan.baidu.com/s/1oEZcLxMpX5bXWiXmfMjUQQ) with a key `emgy`.
 * Biomedicine raw data (Optional) from the PubMed can also be tried [*Download*](https://pan.baidu.com/s/1s866FUl07L96JmzelMC2xw) with a key `5ijl`.
 
 ## Usage
