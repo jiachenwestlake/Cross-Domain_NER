@@ -38,7 +38,7 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
 
 ## Usage
 ### Command
-Both `\supervised_domain_adaptation` and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
+`\supervised_domain_adaptation`, `\unsupervised_domain_adaptation`and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
 ```
 python main.py --config train.NER.config
 ```
