@@ -9,8 +9,8 @@ We address this issue, using  cross-domain LM as a bridge cross-domains for NER 
 Experiments on **CBS SciTech News Dataset** show that our model can effectively allow unsupervised domain adaptation,
 while also can deriving supervised domain adaption between domains with completely different entity types (i.e. news vs. biomedical). 
 <br> <br>
-The naive baseline of Single Task Model (**STM** in paper) followed [NCRF++](https://github.com/jiesutd/NCRFpp
-), with some exceptions in the hyperparameters of **STM-Target** in order to give a strong baseline.
+The naive baseline of Single Task Model (**STM** in paper) mostly followed [NCRF++](https://github.com/jiesutd/NCRFpp
+).
 <br> <br>
 For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling]()".
 
