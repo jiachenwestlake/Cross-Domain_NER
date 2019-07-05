@@ -501,7 +501,7 @@ def train(data):
             print("ERROR: LOSS EXPLOSION (>1e8) ! PLEASE SET PROPER PARAMETERS AND STRUCTURE! EXIT....")
             exit(1)
 
-        # dev
+        # dev-test
         speed, acc, p, r, f, _, _ = evaluate(data, model, "dev-test")
         test_f1.append(f[1])
         dev_finish = time.time()
