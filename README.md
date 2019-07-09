@@ -24,11 +24,11 @@ The memory of one GPU should be no less than 8GB to fit the model.
 ## Pretrained Embeddings
 GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anthology/D14-1162)).
 
-## Data
-### Labeled data
-* Source-domain: CoNLL-2003 English NER data. <br>
-* Target-domain
- * Unsupervised: CBS SciTech News (test set) (In `\unsupervised_domain_adaptation\data\news_tech\tech_test` or [*Download*](https://pan.baidu.com/s/1z8L1Z3VtID7FnnsS22BO2w) with a key `1gz0`). <br>
+## DataSet
+### Source-domain: 
+CoNLL-2003 English NER data.
+### Target-domain
+ * Unsupervised: CBS SciTech News (test set) (In `\unsupervised_domain_adaptation\data\news_tech\tech_test). <br>
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset.
 
 ## Usage
