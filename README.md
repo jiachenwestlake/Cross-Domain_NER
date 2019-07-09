@@ -28,7 +28,7 @@ GloVe 100-dimension word vectors (Cite from [*Here*](https://www.aclweb.org/anth
 ### Source-domain: 
 CoNLL-2003 English NER data.
 ### Target-domain
- * Unsupervised: CBS SciTech News (test set) (In `\unsupervised_domain_adaptation\data\news_tech\tech_test). <br>
+ * Unsupervised: CBS SciTech News (test set) (In: `\unsupervised_domain_adaptation\data\news_tech\tech_test). <br>
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset.
 
 ## Usage
