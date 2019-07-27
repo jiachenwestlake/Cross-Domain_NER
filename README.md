@@ -12,7 +12,7 @@ while also can deriving supervised domain adaption between domains with complete
 The naive baseline of Single Task Model (**STM** in paper) mostly followed [NCRF++](https://github.com/jiesutd/NCRFpp
 ).
 <br> <br>
-For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling]()".
+For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling](https://www.aclweb.org/anthology/P19-1236)".
 
 ## Requirements
 ```
@@ -45,7 +45,14 @@ The file `train.NER.config` contains dataset path and model hyperparameters foll
 ## Cite:
 If you use our data or code, please cite our paper as follows:
 ```
-
+@inproceedings{jia2019cross,
+  title={Cross-domain ner using cross-domain language modeling},
+  author={Jia, Chen and Liang, Xiaobo and Zhang, Yue},
+  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages={2464--2474},
+  year={2019}
+  organization={Association for Computational Linguistics}
+}
 ```
 
 ## Update
