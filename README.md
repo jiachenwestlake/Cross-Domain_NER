@@ -16,7 +16,10 @@ For more details, please refer to our paper:
 <br>
 [Cross-Domain NER using Cross-Domain Language Modeling](https://www.aclweb.org/anthology/P19-1236)
 <br>
-Chen Jia, Xiaobo Liang and Yue Zhang* (*Corresponding Author)
+Chen Jia, Xiaobo Liang and Yue Zhang*
+<br>
+(* Corresponding Author)
+ACL 2019
 
 ## Requirements
 ```
