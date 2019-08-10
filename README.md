@@ -13,12 +13,13 @@ The naive baseline of Single Task Model (**STM** in paper) mostly followed [NCRF
 ).
 <br> <br>
 For more details, please refer to our paper:
-<br>
+<br><br>
 [Cross-Domain NER using Cross-Domain Language Modeling](https://www.aclweb.org/anthology/P19-1236)
 <br>
 Chen Jia, Xiaobo Liang and Yue Zhang*
 <br>
 (* Corresponding Author)
+<br>
 ACL 2019
 
 ## Requirements
