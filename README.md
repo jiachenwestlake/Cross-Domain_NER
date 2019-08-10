@@ -12,7 +12,10 @@ while also can deriving supervised domain adaption between domains with complete
 The naive baseline of Single Task Model (**STM** in paper) mostly followed [NCRF++](https://github.com/jiesutd/NCRFpp
 ).
 <br> <br>
-For more details, please refer to our paper "[Cross-Domain NER using Cross-Domain Language Modeling](https://www.aclweb.org/anthology/P19-1236)".
+For more details, please refer to our paper:
+"[Cross-Domain NER using Cross-Domain Language Modeling](https://www.aclweb.org/anthology/P19-1236)"
+<br>
+Chen Jia, Xiaobo Liang and Yue Zhang<sup>*</sup> (<sup>*</sup>Corresponding Author)
 
 ## Requirements
 ```
