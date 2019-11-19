@@ -39,6 +39,10 @@ CoNLL-2003 English NER data.
  * Unsupervised: CBS SciTech News (test set) (In: `\unsupervised_domain_adaptation\data\news_tech\tech_test). <br>
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset.
 
+## LM raw data
+Biomedical raw data [Download](https://pan.baidu.com/s/10mefhqPD1v-QAhUf0M4dTA). <br>
+News domain raw data [Download](https://pan.baidu.com/s/1n9jval7EqiJrZ_YLR8wX0w). <br>
+
 ## Usage
 ### Command
 `\supervised_domain_adaptation`, `\unsupervised_domain_adaptation`and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
