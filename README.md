@@ -40,8 +40,8 @@ CoNLL-2003 English NER data.
  * Supervised: [BioNLP13PC](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset and [BioNLP13CG](https://github.com/cambridgeltl/MTL-Bioinformatics-2016/tree/master/data) dataset.
 
 ## LM raw data
-Biomedical raw data [Download](https://pan.baidu.com/s/10mefhqPD1v-QAhUf0M4dTA). <br>
-News domain raw data [Download](https://pan.baidu.com/s/1n9jval7EqiJrZ_YLR8wX0w). <br>
+Retures domain raw data is released together with the CoNLL-2003 dataset. <br> 
+SciTech news domain raw data [Download](https://pan.baidu.com/s/1n9jval7EqiJrZ_YLR8wX0w). <br>
 
 ## Usage
 ### Command
