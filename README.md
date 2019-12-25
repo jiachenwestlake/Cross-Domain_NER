@@ -42,7 +42,7 @@ CoNLL-2003 English NER data.
 ## LM raw data
 Retures domain raw data is released together with the CoNLL-2003 dataset. <br> 
 SciTech news domain raw data [Download](https://pan.baidu.com/s/1n9jval7EqiJrZ_YLR8wX0w). <br>
-
+Reuters news domain raw data [Download](https://pan.baidu.com/s/1iIXKEKt96rDD815jT8-xdg). <br>
 ## Usage
 ### Command
 `\supervised_domain_adaptation`, `\unsupervised_domain_adaptation`and `\combined_SDA_and_UDA` can use the following command to make it run. <br>
