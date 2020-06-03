@@ -413,7 +413,7 @@ def train(data):
             instance_4 = data.target_lm_idx[batch_id * batch_size_4: (batch_id + 1) * batch_size_4
             if ((batch_id + 1) * batch_size_4) < train_num_4 else train_num_4]
 
-            if not instance_1 or not instance_2:
+            if not instance_1:
                 continue
 
             # NER
